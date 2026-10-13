@@ -66,7 +66,7 @@ Para mantener una estructura consistente y facilitar la búsqueda de los diferen
 El formato general será:
 
 ```text
-XXXX_SemanaXX_CapX/X_tema
+XXXX_SemanaXX_CapXX_PX/X_tema
 ```
 
 ### Significado de cada elemento
@@ -75,29 +75,30 @@ XXXX_SemanaXX_CapX/X_tema
 |----------|-------------|
 | `XXXX` | Nombre o abreviatura del bloque de contenido |
 | `SemanaXX` | Número de la semana en la que se desarrolla el contenido |
-| `CapX/X` | Número del capítulo y parte correspondiente |
+| `CapXX` | Número del capítulo |
+| `PX/X` | Parte del capitulo correspondiente |
 | `tema` | Tema específico desarrollado en el contenido |
 
 ### Ejemplos
 
 ```text
-Python_Semana01_Cap1/2_tema
-IA_Semana10_Cap2/2_tema
-IA_Gen_Semana15_Cap1/2_tema
+Python_Semana01_Cap01_P1/2_tema
+IA_Semana10_Cap02_P2/2_tema
+IA_Gen_Semana15_Cap01_P1/1_tema
 ```
 
 Por ejemplo:
 
 ```text
-Python_Semana03_Cap2/1_Listas
+Python_Semana03_Cap02_P1/1_Listas
 ```
 
 Este nombre indica que el contenido corresponde a:
 
 - **Bloque:** Python
 - **Semana:** 03
-- **Capítulo:** 2
-- **Parte:** 1
+- **Capítulo:** 02
+- **Parte:** 1/2
 - **Tema:** Listas
 
 De esta manera, el nombre permite identificar rápidamente qué contenido es, a qué bloque pertenece y en qué momento del programa fue desarrollado.
